@@ -10,8 +10,9 @@ body {
 }
 
 h1 {
-  background-color: white;
-  border: 4px solid blue;
+  background-color: #fff9e0; /* #80B3FF */;
+  border: 4px solid black;
+  color: black;
   width: 250px;
   text-align: center;
   padding-top: 10px;
@@ -22,7 +23,7 @@ ul {
 }
 
 .intro {
-  background-color: white;
+  background-color: #f1c550;
   width: 620px;
   border: 4px solid black;
   padding: 10px;
@@ -36,56 +37,88 @@ section article {
   flex: 1;
 }
 
-section button {
-  background-color: #80B642;
+section h2 {
+  background-color: #A1C45A;
   color: black;
   border: 4px solid black;
   text-align: center;
   padding-top: 10px;
   padding-bottom: none;
-  cursor: pointer;
-  width: 100%;
 }
 
-
-}
-
-.left {
-  float: left;
-  width: 25%;
-}
-
-.left ul li {
-  height: 110px;
-  width: 100%;
+section h5 {
   text-align: center;
 }
 
-.right {
-  float: right;
-  width: 75%;
-}
-
-.right ul li {
-  height: 110px;
-  width: 100%;
-}
-
-.clear {
-  clear: both;
+section a {
+  padding: 55px;
 }
 
 a:link {
   text-decoration: none;
 }
 
-.active, .collapsibleButton:hover {
-  background-color: #80B642;
+.collapsible {
+  color: black;
+  cursor: pointer;
+  width: 30%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-family: fantasy;
+  font-size: 16px;
+  opacity: 0.7;
+  margin-left: 365px;
+  margin-bottom: 25px;
 }
 
-.contentButton {
-  padding: 0 18px;
+.active, .collapsible:hover {
+  background-color: #F1C550;
+}
+
+.content {
+  padding: 10px;
+  margin: 0 200px 15px 200px;
   display: none;
   overflow: hidden;
-  background-color: #f1f1f1;
+  background-color: #F1C550;
+  opacity: 0.7;
+}
+
+.left {
+  float: left;
+  width: 50%;
+}
+
+.right {
+  float: right;
+  width: 50%;
+}
+
+.dndPage {
+  background-color: #f1c550;
+  opacity: 0.8;
+  padding: 6px;
+  text-indent: 30px;
+}
+
+.dndLeft {
+  float: left;
+  width: 50%;
+  text-align: center;
+  background-color: #f1c550;
+  opacity: 0.8;
+}
+
+.dndRight {
+  float: right;
+  width: 50%;
+  text-align: center;
+  background-color: #f1c550;
+  opacity: 0.8;
+}
+
+.videoGames {
+  background-color: #f1c550;
+  padding: 5px 10px 20px 30px;
 }
